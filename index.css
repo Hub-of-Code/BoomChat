@@ -217,16 +217,7 @@
          border-radius: 50%;
          background-color: tomato;
      }
-     
-     .image2 {
-         width: 40px;
-         height: 40px;
-         border-radius: 50%;
-         background-color: green;
-         max-width: 40px;
-         max-height: 40px;
-     }
-     
+         
       ::placeholder {
          color: lightgray;
      }
