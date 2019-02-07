@@ -78,8 +78,63 @@
          left: 0px;
          box-shadow: 0px 2px 1px 1px lightgray;
          background-color: white;
+         display:none
      }
-     
+     .menu2{
+        width: 100vw;
+        position: fixed;
+        height: 50px;
+        top: 0px;
+        left: 0px;
+        box-shadow: 0px 2px 1px 1px lightgray;
+        background-color: white;
+        z-index:5;
+        display:inline-table;
+        padding-left:35px;
+        padding-right:35px;
+        }
+     .navbutt{
+		border:0px;
+		background-color:transparent;
+		font-size:18px;
+		font-family:buxton sketch;
+		font-weight:bolder;
+		color:black;
+		animation-duration:1s;
+		cursor:hand; 
+        color:black;
+     }
+     .navbutt:hover{
+		border-bottom:2.5px solid cornflowerblue;
+		color:cornflowerblue;
+		cursor:hand;
+    }
+    .icon{
+    	height:36px;
+     	width:48px;
+     	border-radius:25px;
+     	cursor:hand;
+     	padding-left:130px;
+    }
+    .searchbox{
+        border-radius:10px;
+        padding-right:5px;
+        padding-left:5px;
+        border:2px solid grey;
+        font-size:15px;
+        font-family:comic sans ms;
+        font-weight:bold;
+
+    }
+    .profilepix{
+        height:37px;
+        width:45px;
+        border-radius:25px;
+        cursor:hand;
+    }
+   .width{
+       width:30px;
+   }
      .posts {
          width: 50vw;
          background-color: rgb(252, 252, 252);
@@ -246,22 +301,58 @@
          position: fixed;
          top: 52px;
          left: 0vw;
-         width: 25vw;
-         z-index: 2;
+         width: 24vw;
+         z-index: 1;
          height: 100vh;
          overflow-y: auto;
+         border-right:1px solid lightgray;
      }
      
      .postright {
          position: fixed;
          top: 52px;
          right: 0vw;
-         width: 25vw;
-         z-index: 2;
+         width: 23vw;
+         z-index: 1;
          height: 100vh;
          overflow-y: auto;
+         border-left:1px solid lightgray;
      }
-     
+     .pcontent{
+         width: 100%;
+         padding-top:20px;
+         padding-left:5px;
+         padding-right:5px;
+     }
+     h2{
+         font-family:Trebuchet MS;
+     }
+     .picholder{
+         width:25px;
+         border-bottom:1px solid lightgray;
+     }
+     .senderpic{
+         width:30px;
+         height:30px;
+         border-radius:50%;
+     }
+     .message{
+         padding-left:4px;
+         font-family:arial;
+         font-size:12px;
+         padding-bottom:5px;
+         border-bottom:1px solid lightgray;
+     }
+     .rule{
+         border-bottom:2px solid lightgray;
+         padding-bottom:10px;
+     }
+     .sender{
+         padding-left:4px;
+         font-family:tahoma;
+         font-size:14px;
+         font-weight:bold;
+     }
      .ov {
          padding-left: 10px;
      }
@@ -278,6 +369,7 @@
         overflow-y:auto;
         transition:1s;
      }
+     
      .postcontent{
         width:50vw;
         height:80vh;
@@ -331,4 +423,11 @@
          .content {
              font-size: 15px;
          }
+         .menu2{
+             display:none
+         }
+         .menu{
+             display:inline-table
+         }
      }
+
