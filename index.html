@@ -1,60 +1,126 @@
 <html>
-  
+
 <head>
-   <meta name = "viewport" content = "initial-scale=1.0, width=device-width">
-   <meta name = "description" content = "Welcome to BoomChat">
-   <meta name = "keywords" content = "boom, chat, social, network">
-   <link rel = "shortcut icon" href = "assets/chat.png">
-   <script src = "js/index.js" type = "text/javascript"></script>
-   <link rel = "stylesheet" href = "index.css" type="text/css" media="all">
-   <title>Boom Chat</title>
+    <meta name="viewport" content="initial-scale=1.0, width=device-width">
+    <meta name="description" content="Welcome to BoomChat">
+    <meta name="keywords" content="boom, chat, social, network">
+    <link rel="shortcut icon" href="assets/chat.png">
+    <script src="js/index.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="index.css" type="text/css" media="all">
+    <title>Boom Chat</title>
 </head>
 <center>
-  	<table class="menu"><tr><td><center><div class="images4"></div></center></td><td><center><div class="images1"></div></center></td><td><center><div class="images2"></div></center></td> <td><center><div class="images3"></div></center></td></tr></table>
-  </center>
-   <div class="body">
-      <center>
-      <center><div class="posts">
-      	 <label><p align="left" class="ov"><img class="image">  <label class="overall">Emmanuel Haankwenda Shared a post</label></p></label>
-         <hr>
-         <div class="content">The students in Africa are so intelligent</div>
-         <center><img class="pic"></center>
-         <hr>
-         <table class="perc">
-         	<tr>
-              <td class="txt"><center><div class="interact1"></div> 2</center></td>
-              <td class="txt"><center><div class="interact2"></div> 8</center></td>
-         	<td>
-         </table>
-      </div></center>
-      <center><div class="posts">
-      	 <label><p align="left" class="ov"><img class="image2">  <label class="overall">Edinyanga Ottoho Shared a post</label></p></label>
-         <hr>
-         <div class="content">At the rate in which the world is moving, AI will surpass human intelligence </div>
-         <center><img class="pic2"></center>
-         <hr>
-         <table class="perc">
-         	<tr>
-              <td class="txt"><center><div class="interact1"></div> 5</center></td>
-              <td class="txt"><center><div class="interact2"></div> 10</center></td>
-         	</tr>
-         </table>
-      </div></center>
-  </div>
-  <center>
-      	<div class="posttop">
-      	<table style="width:100%;height:100%">
-      		<tr>
-      		 <td style="width:40px"><img src="assets/cover.jpg" class="pict"></td>
-      		 <td><center><textarea class="postbox" placeholder="Share ideas, events, photos..." ondragover="dov()" ondragleave="dlv()"></textarea></center></td>
-      		</tr>
-      	</table>
-        </div>
-  </center>
-  <div class="postleft">
-    
-  </div>
-  <div class="postright">
-  	 
-  </div>
-  </html>
+    <table class="menu">
+        <tr>
+            <td>
+                <center>
+                    <div class="images4"></div>
+                </center>
+            </td>
+            <td>
+                <center>
+                    <div class="images1"></div>
+                </center>
+            </td>
+            <td>
+                <center>
+                    <div class="images2"></div>
+                </center>
+            </td>
+            <td>
+                <center>
+                    <div class="images3"></div>
+                </center>
+            </td>
+        </tr>
+    </table>
+</center>
+<div class="body">
+    <center>
+        <center>
+            <div class="posts">
+                <label><p align="left" class="ov"><img class="image">  <label class="overall">Emmanuel Haankwenda Shared a post</label></p>
+                </label>
+                <hr>
+                <div class="content">The students in Africa are so intelligent</div>
+                <center><img class="pic"></center>
+                <hr>
+                <table class="perc">
+                    <tr>
+                        <td class="txt">
+                            <center>
+                                <div class="interact1"></div> 2</center>
+                        </td>
+                        <td class="txt">
+                            <center>
+                                <div class="interact2"></div> 8</center>
+                        </td>
+                        <td>
+                </table>
+            </div>
+        </center>
+        <center>
+            <div class="posts">
+                <label><p align="left" class="ov"><img class="image2">  <label class="overall">Edinyanga Ottoho Shared a post</label></p>
+                </label>
+                <hr>
+                <div class="content">At the rate in which the world is moving, AI will surpass human intelligence </div>
+                <center><img class="pic2"></center>
+                <hr>
+                <table class="perc">
+                    <tr>
+                        <td class="txt">
+                            <center>
+                                <div class="interact1"></div> 5</center>
+                        </td>
+                        <td class="txt">
+                            <center>
+                                <div class="interact2"></div> 10</center>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </center>
+</div>
+<center>
+    <div class="posttop">
+        <table style="width:100%;height:100%">
+            <tr>
+                <td style="width:40px"><img src="assets/cover.jpg" class="pict"></td>
+                <td>
+                    <center><textarea class="postbox" placeholder="Share ideas, events, photos..."></textarea></center>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="postupload">
+        <table style="width:100%;height:100%">
+            <tr>
+                <td style="width:40px"><img src="assets/cover.jpg" class="pict"></td>
+                <td>
+                    <center><progress value="10" max="100" id="loader"></progress></center>
+                </td>
+                <td id="load">0%</td>
+            </tr>
+        </table>
+    </div>
+</center>
+<div class="postnow">
+    <center>
+        <table class="postcontent">
+            <tr>
+                <td>
+
+                </td>
+            </tr>
+        </table>
+    </center>
+</div>
+<div class="postleft">
+
+</div>
+<div class="postright">
+
+</div>
+
+</html>
