@@ -105,6 +105,8 @@
          border: 2px solid white;
          width: 50vw;
          height: 80px;
+         visibility:hidden;
+         opacity:0;
          background-color: white;
          z-index: 4;
      }
@@ -271,6 +273,8 @@
         left:0px;
         z-index:6;
         background-color:rgba(0,0,0,0.5);
+        visibility:hidden;
+        opacity:0;
         overflow-y:auto;
         transition:1s;
      }
