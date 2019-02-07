@@ -10,6 +10,18 @@
      .images1:hover {
          background-image: url("assets/m2.png");
      }
+     .images5 {
+         width: 34px;
+         height: 30px;
+         background-image: url("assets/s1.png");
+         background-size: 100% 100%;
+         transition: 1s;
+         cursor: hand;
+     }
+     
+     .images5:hover {
+         background-image: url("assets/s2.png");
+     }
      
      .pict {
          height: 50px;
@@ -96,13 +108,13 @@
      .navbutt{
 		border:0px;
 		background-color:transparent;
-		font-size:18px;
+		font-size:20px;
 		font-family:buxton sketch;
 		font-weight:bolder;
-		color:black;
 		animation-duration:1s;
-		cursor:hand; 
-        color:black;
+		cursor:hand;
+        transition:0.2s;
+        color:gray;
      }
      .navbutt:hover{
 		border-bottom:2.5px solid cornflowerblue;
@@ -117,20 +129,28 @@
      	padding-left:130px;
     }
     .searchbox{
-        border-radius:10px;
-        padding-right:5px;
-        padding-left:5px;
-        border:2px solid grey;
-        font-size:15px;
+        border-radius:8px;
+        padding-right:8px;
+        padding-left:8px;
+        padding-top:2px;
+        padding-bottom:2px;
+        border:1px solid gray;
+        font-size:14px;
         font-family:comic sans ms;
-        font-weight:bold;
+        width:300px;
 
     }
+    .searchbox:focus{
+        outline:none;
+    }
     .profilepix{
-        height:37px;
-        width:45px;
-        border-radius:25px;
+        height:40px;
+        width:40px;
+        border-radius:50%;
         cursor:hand;
+    }
+    .profilepix:hover{
+        border:2px solid powderblue;
     }
    .width{
        width:30px;
@@ -211,7 +231,7 @@
          color: lightgray;
      }
      
-     .postbox {
+     #postbox {
          width: 95%;
          height: 45px;
          border-radius: 10px;
@@ -222,13 +242,13 @@
          resize: none;
      }
      
-     .postbox:focus {
+     #postbox:focus {
          border: 1px solid gray;
          outline: none;
      }
      
      label.overall {
-         font-size: 18px;
+         font-size: 15px;
          font-weight: bold;
          font-family: tahoma;
          position: relative;
@@ -241,7 +261,7 @@
      
      .content {
          font-family: tahoma;
-         font-size: 16px;
+         font-size: 14px;
          text-align: left;
          width: 100%;
          white-space: pre-wrap;
@@ -326,19 +346,22 @@
      }
      h2{
          font-family:Trebuchet MS;
+         text-shadow:gray 1px 1px 1px;
+         font-size:20px;
      }
      .picholder{
          width:25px;
          border-bottom:1px solid lightgray;
      }
      .senderpic{
-         width:30px;
-         height:30px;
+         width:40px;
+         height:40px;
          border-radius:50%;
      }
      .message{
          padding-left:4px;
          font-family:arial;
+         color:gray;
          font-size:12px;
          padding-bottom:5px;
          border-bottom:1px solid lightgray;
@@ -350,13 +373,13 @@
      .sender{
          padding-left:4px;
          font-family:tahoma;
-         font-size:14px;
+         font-size:13px;
          font-weight:bold;
      }
      .ov {
          padding-left: 10px;
      }
-     .postnow{
+     #postnow{
         position:fixed;
         width:100vw;
         height:100vh;
@@ -365,21 +388,37 @@
         z-index:6;
         background-color:rgba(0,0,0,0.5);
         visibility:hidden;
-        opacity:0;
         overflow-y:auto;
-        transition:1s;
      }
      
      .postcontent{
+        padding:20px;
         width:50vw;
-        height:80vh;
         background-color:white;
         position:relative;
         top:10vh;
         border-radius:10px;
         overflow-y:auto;
      }
-     @media(max-width:900px) {
+     #options{
+        position:fixed;
+        right:0px;
+        top:50px;
+        width:20vw;
+        height:500px;
+        background-color:white;
+        border-left:1px solid lightgray;
+        border-bottom:1px solid lightgray;
+        z-index:6;
+        display:none;
+     }
+     @media(max-width:1000px) {
+        .postcontent{
+         width:80vw;
+        }
+        #options{
+          width:60vw;
+        }
          .body {
              width: 95vw;
              left: 2vw;
