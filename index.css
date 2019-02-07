@@ -1,249 +1,330 @@
-     .images1{
-      width:30px;
-      height:25px;
-      background-image:url("assets/m1.png");
-      background-size:100% 100%;
-      transition:2s;
-      cursor:hand;
+     .images1 {
+         width: 30px;
+         height: 25px;
+         background-image: url("assets/m1.png");
+         background-size: 100% 100%;
+         transition: 2s;
+         cursor: hand;
      }
-     .images1:hover{
-        background-image:url("assets/m2.png");
+     
+     .images1:hover {
+         background-image: url("assets/m2.png");
      }
-     .pict{
-      height:50px;
-      width:50px;
-      border-radius:50%;
+     
+     .pict {
+         height: 50px;
+         width: 50px;
+         border-radius: 50%;
      }
-     .images1{
-      width:30px;
-      height:25px;
-      background-image:url("assets/m1.png");
-      background-size:100% 100%;
-      transition:0.3s;
-      cursor:hand;
+     
+     .images1 {
+         width: 30px;
+         height: 25px;
+         background-image: url("assets/m1.png");
+         background-size: 100% 100%;
+         transition: 0.3s;
+         cursor: hand;
      }
-     .images1:hover{
-        background-image:url("assets/m2.png");
+     
+     .images1:hover {
+         background-image: url("assets/m2.png");
      }
-     .images2{
-      width:30px;
-      height:25px;
-      background-image:url("assets/n1.png");
-      background-size:100% 100%;
-      transition:0.3s;
-      cursor:hand;
+     
+     .images2 {
+         width: 30px;
+         height: 25px;
+         background-image: url("assets/n1.png");
+         background-size: 100% 100%;
+         transition: 0.3s;
+         cursor: hand;
      }
-     .images2:hover{
-        background-image:url("assets/n2.png");
+     
+     .images2:hover {
+         background-image: url("assets/n2.png");
      }
-     .images3{
-      width:40px;
-      height:25px;
-      background-image:url("assets/g1.png");
-      background-size:100% 100%;
-      transition:0.3s;
-      cursor:hand;
+     
+     .images3 {
+         width: 40px;
+         height: 25px;
+         background-image: url("assets/g1.png");
+         background-size: 100% 100%;
+         transition: 0.3s;
+         cursor: hand;
      }
-     .images3:hover{
-        background-image:url("assets/g2.png");
+     
+     .images3:hover {
+         background-image: url("assets/g2.png");
      }
-     .images4{
-      width:30px;
-      height:25px;
-      background-image:url("assets/h1.png");
-      background-size:100% 100%;
-      transition:0.3s;
-      cursor:hand;
+     
+     .images4 {
+         width: 30px;
+         height: 25px;
+         background-image: url("assets/h1.png");
+         background-size: 100% 100%;
+         transition: 0.3s;
+         cursor: hand;
      }
-     .images4:hover{
-        background-image:url("assets/h2.png");
+     
+     .images4:hover {
+         background-image: url("assets/h2.png");
      }
-     .menu{
-     	z-index:4;
-     	width:100vw;
-     	position:fixed;
-     	height:50px;
-     	top:0px;
-     	left:0px;
-     	box-shadow:0px 2px 1px 1px lightgray;
-     	background-color:white;
+     
+     .menu {
+         z-index: 5;
+         width: 100vw;
+         position: fixed;
+         height: 50px;
+         top: 0px;
+         left: 0px;
+         box-shadow: 0px 2px 1px 1px lightgray;
+         background-color: white;
      }
-       .posts{
-  	width:50vw;
-  	background-color:rgb(252,252,252);
-  	padding-top:15px;
-  	border-bottom:2px solid lightgray;
-  }
-  .posttop{
-    position:fixed;
-    top:52px;
-    left:25vw;
-    border:2px solid white;
-    width:50vw;
-    height:80px;
-    background-color:white;
-    z-index:3;
-  }
-  .pic{
-  	width:100%;
-  	background-color:powderblue;
-  	height:350px;
-  }
-  .pic2{
-  	width:100%;
-  	background-color:lightpink;
-  	height:350px;
-  }
-  .image{
-  	width:40px;
-  	height:40px;
-  	border-radius:50%;
-  	background-color:tomato;
-  }
-  .image2{
-  	width:40px;
-  	height:40px;
-  	border-radius:50%;
-  	background-color:green;
-  	max-width:40px;
-  	max-height:40px;
-  }
-  ::placeholder{
-  	color:lightgray;
-  }
-  .postbox{
-  	width:95%;
-  	height:45px;
-  	border-radius:10px;
-  	border:1px solid lightgray;
-  	padding:10px;
-  	font-family:tahoma;
-  	font-size:12px;
-  	resize:none;
-  	
-   }
-  .postbox:focus{
-  	border:1px solid gray;
-  	outline:none;
-  }
-  label.overall{
-  	font-size:18px;
-  	font-weight:bold;
-  	font-family:tahoma;
-  	position:relative;
-  	top:-12px;
-  }
-  p{
-  	white-space:pre-wrap;
-  }
-  .content{
-    font-family:tahoma;
-    font-size:16px;
-    text-align:left;
-    width:100%;
-    white-space:pre-wrap;
-    padding:5px;
-  }
-  .perc{
-  	width:100%;
-  }
-  .txt{
-  	font-size:12px;
-  	font-weight:bold;
-  	font-style:italic;
-  	font-family:tahoma;
-  	color:green;
-  }
-  .interact1{
-  	width:30px;
-  	height:25px;
-  	cursor:hand;
-  	background-image:url("assets/love.png");
-    background-size:100% 100%;
-  }
-  .interact2{
-  	width:30px;
-  	height:25px;
-  	cursor:hand;
-  	background-image:url("assets/comment.png");
-    background-size:100% 100%;
-  }
-  .interact1:hover{
-  	background-image:url("assets/love2.png");
-    background-size:100% 100%;
-  }
-  .interact2:hover{
-  	background-image:url("assets/comment2.png");
-    background-size:100% 100%;
-  }
-  .body{
-  	width:50vw;
-    left:25vw;
-    top:115px;
-  	position:absolute;
-  	overflow-y:auto;
-  	z-index:2;
-  	text-align:center;
-  	overflow-x:hidden;
-  }
-  .postleft{
-    position:fixed;
-    top:52px;
-    left:0vw;
-    width:25vw;
-    z-index:2;
-    height:100vh;
-    overflow-y:auto;
-  }
-  .postright{
-    position:fixed;
-    top:52px;
-    right:0vw;
-    width:25vw;
-    z-index:2;
-    height:100vh;
-    overflow-y:auto;
-  }
-  .ov{
-  	padding-left:10px;
-  }
-  @media(max-width:900px){
-  	.body{
-      width:95vw;
-      left:2vw;
-  	}
-  	.postleft, .postright{
-  	  display:none;
-  	}
-  	.posttop{
-  	  width:95vw;
-  	  left:2vw;
-  	}
-  	.posts{
-  	  width:85vw;
-  	  background-color:white;
-  	  left:2vw;
-  	}
-  	.interact1{
-       width:25px;
-  	   height:20px;
-  	}
-  	.interact2{
-  	   width:20px;
-  	   height:20px;
-  	}
-  	label.overall{
-  	   font-size:15px;
-  	   position:relative;
-  	   top:-14px;
-    }
-    .pic{
-       height:350px;
-    }
-    .pic2{
-       height:350px;
-    }
-    .content{
-       font-size:15px;
-    }
-  }
+     
+     .posts {
+         width: 50vw;
+         background-color: rgb(252, 252, 252);
+         padding-top: 15px;
+         border-bottom: 2px solid lightgray;
+     }
+     
+     .posttop {
+         position: fixed;
+         top: 52px;
+         left: 25vw;
+         border: 2px solid white;
+         width: 50vw;
+         height: 80px;
+         background-color: white;
+         z-index: 3;
+     }
+     
+     .postupload {
+         position: fixed;
+         top: 52px;
+         left: 25vw;
+         border: 2px solid white;
+         width: 50vw;
+         height: 80px;
+         background-color: white;
+         z-index: 4;
+     }
+     
+     #loader {
+         width: 95%;
+         height: 30px;
+     }
+     
+     #load {
+         font-family: tahoma;
+         font-weight: bold;
+         color: gray;
+         font-size: 15px;
+         width: 50px;
+     }
+     
+     .pic {
+         width: 100%;
+         background-color: powderblue;
+         height: 350px;
+     }
+     
+     .pic2 {
+         width: 100%;
+         background-color: lightpink;
+         height: 350px;
+     }
+     
+     .image {
+         width: 40px;
+         height: 40px;
+         border-radius: 50%;
+         background-color: tomato;
+     }
+     
+     .image2 {
+         width: 40px;
+         height: 40px;
+         border-radius: 50%;
+         background-color: green;
+         max-width: 40px;
+         max-height: 40px;
+     }
+     
+      ::placeholder {
+         color: lightgray;
+     }
+     
+     .postbox {
+         width: 95%;
+         height: 45px;
+         border-radius: 10px;
+         border: 1px solid lightgray;
+         padding: 10px;
+         font-family: tahoma;
+         font-size: 12px;
+         resize: none;
+     }
+     
+     .postbox:focus {
+         border: 1px solid gray;
+         outline: none;
+     }
+     
+     label.overall {
+         font-size: 18px;
+         font-weight: bold;
+         font-family: tahoma;
+         position: relative;
+         top: -12px;
+     }
+     
+     p {
+         white-space: pre-wrap;
+     }
+     
+     .content {
+         font-family: tahoma;
+         font-size: 16px;
+         text-align: left;
+         width: 100%;
+         white-space: pre-wrap;
+         padding: 5px;
+     }
+     
+     .perc {
+         width: 100%;
+     }
+     
+     .txt {
+         font-size: 12px;
+         font-weight: bold;
+         font-style: italic;
+         font-family: tahoma;
+         color: green;
+     }
+     
+     .interact1 {
+         width: 30px;
+         height: 25px;
+         cursor: hand;
+         background-image: url("assets/love.png");
+         background-size: 100% 100%;
+     }
+     
+     .interact2 {
+         width: 30px;
+         height: 25px;
+         cursor: hand;
+         background-image: url("assets/comment.png");
+         background-size: 100% 100%;
+     }
+     
+     .interact1:hover {
+         background-image: url("assets/love2.png");
+         background-size: 100% 100%;
+     }
+     
+     .interact2:hover {
+         background-image: url("assets/comment2.png");
+         background-size: 100% 100%;
+     }
+     
+     .body {
+         width: 50vw;
+         left: 25vw;
+         top: 115px;
+         position: absolute;
+         overflow-y: auto;
+         z-index: 2;
+         text-align: center;
+         overflow-x: hidden;
+     }
+     
+     .postleft {
+         position: fixed;
+         top: 52px;
+         left: 0vw;
+         width: 25vw;
+         z-index: 2;
+         height: 100vh;
+         overflow-y: auto;
+     }
+     
+     .postright {
+         position: fixed;
+         top: 52px;
+         right: 0vw;
+         width: 25vw;
+         z-index: 2;
+         height: 100vh;
+         overflow-y: auto;
+     }
+     
+     .ov {
+         padding-left: 10px;
+     }
+     .postnow{
+        position:fixed;
+        width:100vw;
+        height:100vh;
+        top:0px;
+        left:0px;
+        z-index:6;
+        background-color:rgba(0,0,0,0.5);
+        overflow-y:auto;
+        transition:1s;
+     }
+     .postcontent{
+        width:50vw;
+        height:80vh;
+        background-color:white;
+        position:relative;
+        top:10vh;
+        border-radius:10px;
+        overflow-y:auto;
+     }
+     @media(max-width:900px) {
+         .body {
+             width: 95vw;
+             left: 2vw;
+         }
+         .postleft,
+         .postright {
+             display: none;
+         }
+         .posttop {
+             width: 95vw;
+             left: 2vw;
+         }
+         .postupload {
+             width: 95vw;
+             left: 2vw;
+         }
+         .posts {
+             width: 85vw;
+             background-color: white;
+             left: 2vw;
+         }
+         .interact1 {
+             width: 25px;
+             height: 20px;
+         }
+         .interact2 {
+             width: 20px;
+             height: 20px;
+         }
+         label.overall {
+             font-size: 15px;
+             position: relative;
+             top: -14px;
+         }
+         .pic {
+             height: 350px;
+         }
+         .pic2 {
+             height: 350px;
+         }
+         .content {
+             font-size: 15px;
+         }
+     }
