@@ -32,19 +32,24 @@
                     <div class="images3"></div>
                 </center>
             </td>
+            <td>
+                <center>
+                    <div class="images5" onclick="drop()"></div>
+                </center>
+            </td>
         </tr>
     </table>
 </center>
 <center>
     <table class="menu2">
         <tr>
-           <td class="width"><button class="navbutt">HOME</button></td>
-            <td class="width"><button class="navbutt">MESSAGES</button></td>
-            <td class="width"><button class="navbutt">NOTIFICATIONS</button></td>
-            <td class="width"><button class="navbutt">GROUPS</button></td>
+           <td class="width"><button class="navbutt">Home</button></td>
+            <td class="width"><button class="navbutt">Messages</button></td>
+            <td class="width"><button class="navbutt">Notifications</button></td>
+            <td class="width"><button class="navbutt">Groups</button></td>
             <td class="width" style="text-align:right;"></td>
             <td style="text-align:right"><input type="text" class="searchbox" placeholder="Search here..." ></td>
-            <td class="width"><img src="assets/cover.jpg" class="profilepix" onclick="settings()"></td>
+            <td class="width"><img src="assets/cover.jpg" class="profilepix" onclick="drop()"></td>
         </tr>
     </table>
 </center>
@@ -101,7 +106,7 @@
             <tr>
                 <td style="width:40px"><img src="assets/cover.jpg" class="pict"></td>
                 <td>
-                    <center><textarea class="postbox" placeholder="Share ideas, events, photos..."></textarea></center>
+                    <center><textarea id="postbox" oninput="pst()" placeholder="Share ideas, events, photos..."></textarea></center>
                 </td>
             </tr>
         </table>
@@ -118,12 +123,12 @@
         </table>
     </div>
 </center>
-<div class="postnow">
+<div id="postnow">
     <center>
         <table class="postcontent">
             <tr>
-                <td>
-
+                <td style="text-align:right">
+                  <button class="closepost" onclick="cl()">&times;</button>
                 </td>
             </tr>
         </table>
@@ -146,5 +151,7 @@
     <tr><td><center><h2>Groups</h2></center></td></tr>
 </table>
 </div>
+<div id="options">
 
+</div>
 </html>
