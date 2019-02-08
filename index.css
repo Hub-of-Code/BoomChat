@@ -368,7 +368,7 @@
          font-weight:bold;
      }
      .ov {
-         padding-left: 10px;
+         padding-left: 3px;
      }
      #postnow{
         position:fixed;
@@ -440,7 +440,7 @@
              height: 20px;
          }
          label.overall {
-             font-size: 15px;
+             font-size: 13px;
              position: relative;
              top: -14px;
          }
@@ -451,7 +451,7 @@
              height: 350px;
          }
          .content {
-             font-size: 15px;
+             font-size: 11.5px;
          }
          .menu2{
              display:none
